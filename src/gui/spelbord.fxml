@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="893.0" prefWidth="1064.0" style="-fx-background-color: #75DBCD;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane fx:id="grid" alignment="CENTER" layoutX="73.0" layoutY="64.0" prefHeight="637.0" prefWidth="771.0" style="-fx-background-color: white; -fx-border-color: black; -fx-grid-lines-visible: true;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black1" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="12" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="8" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="9" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="10" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="11" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="14.0" layoutY="213.0" prefHeight="147.0" prefWidth="59.0" style="-fx-background-color: wxhite; -fx-border-color: black; -fx-grid-lines-visible: true;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="14.0" layoutY="409.0" prefHeight="147.0" prefWidth="59.0" style="-fx-background-color: wxhite; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="853.0" layoutY="215.0" prefHeight="147.0" prefWidth="59.0" style="-fx-background-color: wxhite; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="853.0" layoutY="409.0" prefHeight="147.0" prefWidth="59.0" style="-fx-background-color: wxhite; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="257.0" layoutY="14.0" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black; -fx-grid-lines-visible: true;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="491.0" layoutY="14.0" prefHeight="49.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="257.0" layoutY="710.0" prefHeight="49.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="491.0" layoutY="710.0" prefHeight="49.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black; -fx-grid-lines-visible: true;">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="black" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: black;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="zwart" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="white" alignment="CENTER" onDragDropped="#textDrop" onDragOver="#textDragOver" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="wit" fitHeight="49.0" fitWidth="59.0" onDragDropped="#textDrop" onDragOver="#textDragOver" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <Button fx:id="stoppen" layoutX="981.0" mnemonicParsing="false" onAction="#stoppen" prefHeight="47.0" prefWidth="83.0" text="Stoppen" />
+      <Button fx:id="skip" layoutX="562.0" layoutY="771.0" mnemonicParsing="false" onAction="#skip" prefHeight="37.0" prefWidth="111.0" text="Beurt_overslaan" />
+      <Label fx:id="spelendespeler" alignment="CENTER" layoutX="348.0" layoutY="838.0" prefHeight="17.0" prefWidth="287.0">
+         <font>
+            <Font name="Verdana" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="Beginnen" alignment="CENTER" layoutX="309.0" layoutY="290.0" mnemonicParsing="false" onAction="#beginnen" prefHeight="179.0" prefWidth="298.0" style="-fx-background-color: lightblue;" text="beginnen">
+         <font>
+            <Font name="Verdana Bold" size="37.0" />
+         </font>
+      </Button>
+      <Button fx:id="Scoreblad3" layoutX="762.0" layoutY="790.0" mnemonicParsing="false" onAction="#SwitchToScoreblad3" prefHeight="60.0" prefWidth="111.0" text="Scoreblad_3" />
+      <Button fx:id="Scoreblad4" layoutX="873.0" layoutY="790.0" mnemonicParsing="false" onAction="#SwitchToScoreblad4" prefHeight="60.0" prefWidth="111.0" text="Scoreblad_4" />
+      <Button fx:id="Scoreblad2" layoutX="873.0" layoutY="729.0" mnemonicParsing="false" onAction="#SwitchToScoreblad2" prefHeight="60.0" prefWidth="111.0" text="Scoreblad_2" />
+      <Button fx:id="Scoreblad1" layoutX="762.0" layoutY="729.0" mnemonicParsing="false" onAction="#SwitchToScoreblad1" prefHeight="60.0" prefWidth="111.0" text="Scoreblad_1" />
+      <GridPane fx:id="steengrid" layoutX="170.0" layoutY="765.0" prefHeight="49.0" prefWidth="294.0">
+        <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="59.0" prefWidth="59.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="59.0" prefWidth="59.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="59.0" prefWidth="59.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="59.0" prefWidth="59.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="59.0" prefWidth="59.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="49.0" prefHeight="49.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="steen1l" alignment="CENTER" onDragDetected="#dragDetectie1" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="steen1" fitHeight="49.0" fitWidth="59.0" onDragDetected="#dragDetectie1" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="steen2l" alignment="CENTER" onDragDetected="#dragDetectie2" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="steen2" fitHeight="49.0" fitWidth="59.0" onDragDetected="#dragDetectie2" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="steen3l" alignment="CENTER" onDragDetected="#dragDetectie3" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" GridPane.columnIndex="5">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="steen3" fitHeight="49.0" fitWidth="59.0" onDragDetected="#dragDetectie3" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="steen12l" alignment="CENTER" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" visible="false" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="steen12" fitHeight="49.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+            <Label fx:id="steen11l" alignment="CENTER" prefHeight="49.0" prefWidth="59.0" style="-fx-background-color: white;" visible="false" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="steen11" fitHeight="49.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,2 +1,1 @@
-# Zatre-game
-Java project.
+# Zatre - Software Development Project I (2022)

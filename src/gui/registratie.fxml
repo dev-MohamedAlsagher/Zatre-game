@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ee9b00;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="registrerenButton" layoutX="239.0" layoutY="255.0" mnemonicParsing="false" onAction="#registratieButtonAction" prefHeight="26.0" prefWidth="123.0" text="Registreren">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtNaam" layoutX="220.0" layoutY="138.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField fx:id="txtGeboortejaar" layoutX="220.0" layoutY="191.0" prefHeight="26.0" prefWidth="160.0" />
+      <Label fx:id="gebruikersnaam" alignment="TOP_RIGHT" layoutX="4.0" layoutY="138.0" prefHeight="26.0" prefWidth="197.0" text="gebruikersnaam">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="geboortejaar" alignment="TOP_RIGHT" layoutY="191.0" prefHeight="26.0" prefWidth="197.0" text="geboortejaar:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="registratiegelukt" alignment="CENTER" layoutY="298.0" prefHeight="17.0" prefWidth="600.0" textFill="#0015ff">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="81.0" prefWidth="600.0" style="-fx-background-color: #75DBCD;">
+         <children>
+            <Label alignment="CENTER" prefHeight="81.0" prefWidth="600.0" text="Zatre">
+               <font>
+                  <Font name="Serif Bold" size="70.0" />
+               </font>
+            </Label>
+            <Button fx:id="gaTerugButton" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onAction="#gaTerugButton" text="&lt;_Ga_terug" />
+         </children>
+      </Pane>
+      <Label fx:id="registratie" alignment="CENTER" layoutY="90.0" prefHeight="17.0" prefWidth="600.0" text="Registratie" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="registratiemisgelukt" alignment="CENTER" layoutX="1.0" layoutY="328.0" prefHeight="17.0" prefWidth="600.0" textFill="#0015ff">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font>
+      </Label>
+      
+   </children>
+</Pane>
